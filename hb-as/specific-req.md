@@ -8,13 +8,13 @@
 
 The following check is performed for all features in the dataset.
 
-* Check that at least one habitat type according to a (pan-european) [referenceHabitatTypeScheme](#referenceHabitatTypeScheme) listed in the [ReferenceHabitatTypeSchemeValue code list is available](http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue) (This encoding is intended to allow for queries on habitat types on a pan-European harmonized level).
+* Check that at least one habitat type according to a (pan-european) [referenceHabitatTypeScheme](#referenceHabitatTypeScheme) listed in the [ReferenceHabitatTypeSchemeValue] (http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue) code list is available (This encoding is intended to allow for queries on habitat types on a pan-European harmonized level).
 
 
 **Reference(s)**: 
 
 * [TG DS Template](./README.md#ref_TG_DS_tmpl) IR requirement Article 4 (2)
-* [TG DS-HB](./README.md#ref_TG_DS_HB) 5.3.1.2; 6.2.1
+* [TG DS-HB](./README.md#ref_TG_DS_HB) 5.3.1.2
 
 **Test type**: Automatic
 
@@ -36,5 +36,4 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression				|Multiplicity       |Voidable
 ---------------------------------------------------------- | -------------------------------|-------------------|---------
-referenceHabitatTypeId <a name="referenceHabitatTypeId"></a> | //schema-element(hb:Habitat)/hb:HabitatTypeCoverType/hb:referenceHabitatTypeId/@xlink:href | 1 (1..* for the parent) | No
 referenceHabitatTypeScheme <a name="referenceHabitatTypeScheme"></a> | //schema-element(hb:Habitat)/hb:HabitatTypeCoverType/hb:referenceHabitatTypeScheme/@xlink:href | 1 (1..* for the parent) | No
