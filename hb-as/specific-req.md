@@ -8,7 +8,7 @@
 
 The following check is performed for all features in the dataset.
 
-* Check that at least one habitat type according to a (pan-european) [referenceHabitatTypeScheme](#referenceHabitatTypeScheme) listed in the [ReferenceHabitatTypeSchemeValue] (http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue) code list is available (This encoding is intended to allow for queries on habitat types on a pan-European harmonized level).
+* Check that at least one habitat type according to a (pan-european) [referenceHabitatTypeScheme](#referenceHabitatTypeScheme) listed in the [ReferenceHabitatTypeSchemeValue](http://inspire.ec.europa.eu/codelist/ReferenceHabitatTypeSchemeValue) code list is available (This encoding is intended to allow for queries on habitat types on a pan-European harmonized level).
 
 
 **Reference(s)**: 
