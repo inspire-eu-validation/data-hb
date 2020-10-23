@@ -36,4 +36,4 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression				|Multiplicity       |Voidable
 ---------------------------------------------------------- | -------------------------------|-------------------|---------
-referenceHabitatTypeScheme <a name="referenceHabitatTypeScheme"></a> | //schema-element(hb:Habitat)/hb:HabitatTypeCoverType/hb:referenceHabitatTypeScheme/@xlink:href | 1 (1..* for the parent) | No
+referenceHabitatTypeScheme <a name="referenceHabitatTypeScheme"></a> | //schema-element(hb:Habitat)/hb:habitat/hb:HabitatTypeCoverType/hb:referenceHabitatTypeScheme/@xlink:href | 1 (1..* for the parent) | No
