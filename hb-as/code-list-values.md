@@ -71,8 +71,8 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression				|Multiplicity       |Voidable
 ---------------------------------------------------------- | -------------------------------|-------------------|---------
-referenceHabitatTypeId <a name="referenceHabitatTypeId"></a> | //schema-element(hb:Habitat)/hb:HabitatTypeCoverType/hb:referenceHabitatTypeId/@xlink:href | 1 (1..* for the parent) | No
-referenceHabitatTypeScheme <a name="referenceHabitatTypeScheme"></a> | //schema-element(hb:Habitat)/hb:HabitatTypeCoverType/hb:referenceHabitatTypeScheme/@xlink:href | 1 (1..* for the parent) | No
+referenceHabitatTypeId <a name="referenceHabitatTypeId"></a> | //schema-element(hb:Habitat)/hb:habitat/hb:HabitatTypeCoverType/hb:referenceHabitatTypeId/@xlink:href | 1 (1..* for the parent) | No
+referenceHabitatTypeScheme <a name="referenceHabitatTypeScheme"></a> | //schema-element(hb:Habitat)/hb:habitat/hb:HabitatTypeCoverType/hb:referenceHabitatTypeScheme/@xlink:href | 1 (1..* for the parent) | No
 qualifierLocalName <a name ="qualifierLocalName"></a> | //schema-element(hb:Habitat)/hb:habitatSpecies/hb:HabitatSpeciesType/hb:localSpeciesName/hb:LocalNameType/hb:qualifierLocalName/@xlink:href | 1 (0..\* for the parent) | Yes
 qualifierLocalName <a name ="qualifierLocalName"></a> | //schema-element(hb:Habitat)/hb:habitat/hb:HabitatTypeCoverType/hb:localHabitatName/hb:LocalNameType/hb:qualifierLocalName/@xlink:href | 1 (0..1 for the parent) | Yes
 qualifierLocalName <a name ="qualifierLocalName"></a> | //schema-element(hb:Habitat)/hb:habitatVegetation/hb:HabitatVegetationType/hb:localVegetationName/hb:LocalNameType/hb:qualifierLocalName/@xlink:href | 1 (0..\* for the parent) | Yes
