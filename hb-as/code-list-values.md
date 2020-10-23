@@ -25,7 +25,7 @@ The following checks are performed for every feature in the dataset, for the not
 * Check that all the [referenceSpeciesScheme](#referenceSpeciesScheme) elements has a xlink:href attribute pointing to a [valid value](#validValue5). If the check fails report [disallowedCodeListValue](#disallowedCodeListValue).
 
 
-| <a name="validValue1"></a> Valid values for xlink:href attribute of [referenceHabitatTypeId](#referenceHabitatTypeId) element are available in the INSPIRE Registry.<br>Note: The following codelists are externally governed.| 
+| <a name="validValue1"></a> Valid values for xlink:href attribute of [referenceHabitatTypeId](#referenceHabitatTypeId) element are available in the INSPIRE Registry. <br> Note: The following codelists are externally governed.| 
 | ---- | 
 | http://inspire.ec.europa.eu/codelist/EunisHabitatTypeCodeValue <br> http://inspire.ec.europa.eu/codelist/HabitatsDirectiveCodeValue <br> http://inspire.ec.europa.eu/codelist/MarineStrategyFrameworkDirectiveCodeValue |
 
