@@ -37,7 +37,7 @@ The following checks are performed for every feature in the dataset, for the not
 | ---- | 
 | http://inspire.ec.europa.eu/codelist/QualifierLocalNameValue | 
 
-| <a name="validValue4"></a> Valid values for xlink:href attribute of [referenceSpeciesId](#referenceSpeciesId) element are available in the INSPIRE Registry.<br>Note: The following codelists are externally governed.| 
+| <a name="validValue4"></a> Valid values for xlink:href attribute of [referenceSpeciesId](#referenceSpeciesId) element are available in the INSPIRE Registry. <br> Note: The following codelists are externally governed.| 
 | ---- | 
 | http://inspire.ec.europa.eu/codelist/EuNomenCodeValue <br> http://inspire.ec.europa.eu/codelist/EunisSpeciesCodeValue <br> http://inspire.ec.europa.eu/codelist/NatureDirectivesCodeValue |
 
