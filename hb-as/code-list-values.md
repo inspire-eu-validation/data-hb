@@ -64,7 +64,6 @@ The following checks are performed for every feature in the dataset, for the not
 Identifier  |  Message text (parameters start with '$')
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 disallowedCodeListValue <a name="disallowedCodeListValue"/> | XML document '$filename', $featureType '$gmlid': The property '$propertyName' has a value '$value' that is not one of the allowed values listed at $codelist. Please note that the URIs of all code list values from the INSPIRE Registry shall be referenced using the http protocol. 
-reviewCodeListValue <a name="reviewCodeListValue"/> | XML document '{filename}', {featureType} '{gmlid}': The property '{property}' has a value '{value}' that is not one of the pre-defined values in the INSPIRE data specification. The same value is used by {count} other features in the dataset, too. Extensions to the pre-defined values are allowed, but must not overlap with one of the pre-defined values and be consistent with the specification of the property. Please review the definition of the value. Please note that the URIs of all code list values from the INSPIRE Registry shall be referenced using the http protocol. 
 
 ## Contextual XPath references
 
@@ -72,8 +71,8 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression				|Multiplicity       |Voidable
 ---------------------------------------------------------- | -------------------------------|-------------------|---------
-referenceHabitatTypeId <a name="referenceHabitatTypeId"></a> | //schema-element(hb:Habitat)/hb:HabitatTypeCoverType/hb:referenceHabitatTypeId/@xlink:href | 1 (1..* for the parent) | No
-referenceHabitatTypeScheme <a name="referenceHabitatTypeScheme"></a> | //schema-element(hb:Habitat)/hb:HabitatTypeCoverType/hb:referenceHabitatTypeScheme/@xlink:href | 1 (1..* for the parent) | No
+referenceHabitatTypeId <a name="referenceHabitatTypeId"></a> | //schema-element(hb:Habitat)/hb:habitat/hb:HabitatTypeCoverType/hb:referenceHabitatTypeId/@xlink:href | 1 (1..* for the parent) | No
+referenceHabitatTypeScheme <a name="referenceHabitatTypeScheme"></a> | //schema-element(hb:Habitat)/hb:habitat/hb:HabitatTypeCoverType/hb:referenceHabitatTypeScheme/@xlink:href | 1 (1..* for the parent) | No
 qualifierLocalName <a name ="qualifierLocalName"></a> | //schema-element(hb:Habitat)/hb:habitatSpecies/hb:HabitatSpeciesType/hb:localSpeciesName/hb:LocalNameType/hb:qualifierLocalName/@xlink:href | 1 (0..\* for the parent) | Yes
 qualifierLocalName <a name ="qualifierLocalName"></a> | //schema-element(hb:Habitat)/hb:habitat/hb:HabitatTypeCoverType/hb:localHabitatName/hb:LocalNameType/hb:qualifierLocalName/@xlink:href | 1 (0..1 for the parent) | Yes
 qualifierLocalName <a name ="qualifierLocalName"></a> | //schema-element(hb:Habitat)/hb:habitatVegetation/hb:HabitatVegetationType/hb:localVegetationName/hb:LocalNameType/hb:qualifierLocalName/@xlink:href | 1 (0..\* for the parent) | Yes
