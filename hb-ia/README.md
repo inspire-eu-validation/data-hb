@@ -64,4 +64,4 @@ The following variables are used to refer to the corresponding Xpath expressions
 
 Variable       | Value
 -------------- | -------------------------------------------------
-$features      |  //schema-element(sd:SpeciesDistributionDataSet) \| //schema-element(hb:Habitat)
+$features      |  //schema-element(hb:Habitat)
